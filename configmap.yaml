@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  public.jwks: '{ "keys":[ {"e":"AQAB","kid":"Ya0MKR9b1dnOtBB3ahFhQgfMtLgYXfIjU-YyHpCPDq8","kty":"RSA","n":"xIzANmLDwUn25REUllLuUauZBbQZEDl0cM5yPcOG0HNtPv6c6smBa2gi3UMozpXlSCS53_3MxWFh3sMkluIn-R0JVFV1UHRgDXEWc1qoWuiXoBAfFhH8h5Go-3PFN4ogcxqwPMRdoVm3Lwqms1qfsuM4c2Tw4yrfxFHeXX8u-6x6fYfXW81ZJvcW-GJSxFtaSJAbui2jV3WLC7ULatpVXt9Uj57-mh7FvJe3eJpb7IOHwj-SR8Q4H_zYAOfpRwJnPeaw5LRvl1ge6fDIiK5q0GOkODYQYuxJ6_DMhSlUr7abL_iNLF-Zs8NimbdEJReOHcggSZ17SJ1HZwRo0LWn7Q"}]}'
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2023-07-14T06:44:44Z"
+  name: jwks-configmap
+  namespace: default
+  resourceVersion: "318806"
+  uid: 40f1d9c3-2249-4dc5-a1bf-129a7b2e9da7
